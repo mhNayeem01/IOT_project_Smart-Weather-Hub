@@ -60,6 +60,7 @@ The system uses multiple sensors and actuators, all managed by the ESP32. The co
    - Go to [ThingSpeak](https://thingspeak.com/) to see the live data from your device.
 
 
-##License:
+
+## License:
 This project is open-source. Feel free to contribute and modify.
 
