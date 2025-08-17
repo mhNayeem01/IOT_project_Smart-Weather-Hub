@@ -37,10 +37,29 @@ The system uses multiple sensors and actuators, all managed by the ESP32. The co
    
 ![Cloud](./images/thingspeak.png)
 
-## How to Use:
-1. **Download** the project files from the repository.
-2. **Connect** the ESP32 to your Wi-Fi network.
-3. **Upload** the firmware to the ESP32 using the Arduino IDE.
-4. **Access** the ThingSpeak dashboard to monitor the data in real-time.
 
+## How to Use:
+1. **Download the repository** and open it in **VSCode with PlatformIO**.
+   
+2. **Install PlatformIO** in VSCode and make sure to select **ESP32 DevKit V1** as the board.
+
+3. **Connect your hardware**:
+   - **DHT11** to GPIO4
+   - **UV Sensor** to GPIO34
+   - **RGB LED** to GPIO2
+   - **Buzzer** to GPIO15
+   - **Servo Motor** to GPIO13
+
+4. **Edit the code**:
+   - Set your **Wi-Fi** credentials and **ThingSpeak API key** in the code.
+
+5. **Upload the code**:
+   - Use PlatformIO’s **Upload** button to program the ESP32.
+
+6. **Monitor the data**: 
+   - Go to [ThingSpeak](https://thingspeak.com/) to see the live data from your device.
+
+
+##License:
+This project is open-source. Feel free to contribute and modify.
 
