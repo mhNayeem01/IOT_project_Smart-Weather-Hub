@@ -23,7 +23,7 @@ This project presents an innovative and low-cost ESP32-based system designed to 
 ## Architecture:
 The system uses multiple sensors and actuators, all managed by the ESP32. The core components communicate through GPIO pins for analog readings and digital actuation, while the microcontroller communicates with ThingSpeak via Wi-Fi for cloud updates.
 
-![Project Architecture](./images/architecture.jpg)  
+![Project Architecture](./images/architecture.png)  
 *Architecture Diagram (Page 3 of Report)*
 
 ## How it Works:
