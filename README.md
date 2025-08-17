@@ -34,6 +34,8 @@ The system uses multiple sensors and actuators, all managed by the ESP32. The co
    - **Buzzer**: Beeps when temperature crosses a threshold.
    - **Servo**: Roof is adjusted to protect from UV exposure.
 4. **Cloud Upload**: Data is sent to ThingSpeak for continuous monitoring and visualization.
+   
+![Cloud](./images/thingspeak.png)
 
 ## How to Use:
 1. **Download** the project files from the repository.
